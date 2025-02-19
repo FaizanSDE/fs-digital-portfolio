@@ -7,10 +7,9 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "noEmit": false,  // Allow TypeScript to emit JS files
 
     /* Linting */
     "strict": true,
@@ -18,5 +17,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "src/**/*.ts",  // Include TypeScript files from your app
+    "src/**/*.tsx"
+  ]
 }
