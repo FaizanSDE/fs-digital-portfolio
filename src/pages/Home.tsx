@@ -466,36 +466,29 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      {/* Footer Section */}
-      <footer className="py-16 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-between items-center">
-            <div className="text-white text-center sm:text-left">
-              <h4 className="text-2xl font-semibold">FS Digitalist</h4>
-              <p className="mt-2 text-gray-400">Innovative Digital Solutions</p>
-            </div>
-            <div className="mt-8 sm:mt-0">
-              <ul className="flex space-x-6 justify-center sm:justify-start">
-                <li>
-                  <Link to="/about" className="text-gray-400 hover:text-white transition-colors">About</Link>
-                </li>
-                <li>
-                  <Link to="/services" className="text-gray-400 hover:text-white transition-colors">Services</Link>
-                </li>
-                <li>
-                  <Link to="/projects" className="text-gray-400 hover:text-white transition-colors">Projects</Link>
-                </li>
-                <li>
-                  <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-8 text-center text-gray-400">
-            <p>© 2025 FS Digitalist. All rights reserved.</p>
-          </div>
+      <section className="py-20 bg-gradient-to-br from-purple-900 to-cyan-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Ready to Transform Your Digital Presence?
+            </h2>
+            <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
+              Let's create something extraordinary together. Contact us today to begin your digital transformation journey.
+            </p>
+            <Link
+              to="/contact"
+              className="inline-flex items-center px-8 py-3 text-lg font-medium text-black bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full hover:from-purple-500 hover:to-cyan-500 transition-all duration-300 hover:scale-105"
+            >
+              Get in Touch
+              <ArrowRight className="ml-2" />
+            </Link>
+          </motion.div>
         </div>
-      </footer>
+      </section>
     </div>
   );
 };

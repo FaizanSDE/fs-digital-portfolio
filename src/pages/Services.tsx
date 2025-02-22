@@ -8,128 +8,128 @@ const Services = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: 'SEO Optimization',
-      description: 'Boost your online visibility and drive organic traffic with our data-driven SEO strategies.',
+      title: 'WEB DEVELOPMENT',
+      description: 'Create a strong online presence with a fast, user-friendly website designed to meet your needs.',
       icon: 'search',
       features: [
-        'Keyword Research & Analysis',
-        'On-Page SEO Optimization',
-        'Technical SEO Audit',
-        'Content Strategy',
-        'Link Building',
-        'Performance Tracking'
+        'Custom Website Design',
+        'Responsive Layouts',
+        'Seamless Navigation',
+        'E-Commerce Solution',
+        'Performance Optimization',
+        'On-going Support & Maintenance'
       ]
     },
     {
       id: 2,
-      title: 'Social Media Marketing',
-      description: 'Engage your audience and build brand presence across all social platforms.',
+      title: 'WORDPRESS DEVELOPMENT',
+      description: 'Create a professional, easy-to-manage website with our expert WordPress solutions.',
       icon: 'globe',
       features: [
-        'Platform Strategy',
-        'Content Creation',
-        'Community Management',
-        'Paid Advertising',
-        'Analytics & Reporting',
-        'Influencer Partnerships'
+        '✅ Custom WordPress Design',
+        'Plugin Integration',
+        'SEO-Friendly Setup',
+        'Dynamic Content',
+        'Theme Development',
+        'Ongoing Support & Maintenance'
       ]
     },
     {
       id: 3,
-      title: 'SMO Services',
-      description: 'Optimize your social media presence for maximum impact and engagement.',
+      title: 'SEO',
+      description: 'Boost your online visibility and rank higher on search engines with proven SEO strategies.',
       icon: 'share',
       features: [
-        'Profile Optimization',
-        'Content Strategy',
-        'Engagement Tracking',
-        'Cross-Platform Integration',
-        'Brand Voice Development',
-        'Performance Analytics'
+        'Keyword Research & Strategy',
+        'On-Page Optimization',
+        'Technical SEO',
+        'Link Building',
+        'Content Optimization',
+        'Analytics & Reporting'
       ]
     },
     {
       id: 4,
-      title: 'Website Development',
-      description: 'Create stunning, responsive websites that deliver exceptional user experiences.',
+      title: 'SMO',
+      description: 'Enhance your brand’s social presence and engage your audience effectively across platforms.',
       icon: 'code',
       features: [
-        'Custom Web Development',
-        'Responsive Design',
-        'UI/UX Design',
-        'E-commerce Solutions',
-        'Performance Optimization',
-        'Security Implementation'
+        'Profile Optimization',
+        'Content Strategy & Creation',
+        'Audience Engagement',
+        'Hashtag & Trend Research',
+        'Social Media Advertising',
+        'Performance Tracking & Reporting'
       ]
     },
     {
       id: 5,
-      title: 'WordPress Development',
-      description: 'Build powerful, scalable websites with WordPress customized to your needs.',
+      title: 'SEM',
+      description: 'Drive targeted traffic and maximize conversions with effective search engine marketing.',
       icon: 'monitor',
       features: [
-        'Custom Theme Development',
-        'Plugin Development',
-        'Speed Optimization',
-        'Security Hardening',
-        'E-commerce Integration',
-        'Maintenance & Support'
+        'Google Ads Management',
+        'PPC Campaign Optimization',
+        'Keyword Bidding Strategy',
+        'Landing Page Optimization',
+        'A/B Testing & Analytics',
+        'Performance Tracking & Reporting'
       ]
     },
     {
       id: 6,
-      title: 'Ads Management',
-      description: 'Maximize your ROI with strategic ad campaigns across multiple platforms.',
+      title: 'APP DEVELOPMENT',
+      description: 'Transform your ideas into powerful, user-friendly mobile applications for all platforms.',
       icon: 'database',
       features: [
-        'Campaign Strategy',
-        'Ad Creation & Design',
-        'Budget Management',
-        'Performance Tracking',
-        'A/B Testing',
-        'ROI Optimization'
+        'Custom App Design',
+        'iOS & Android Development',
+        'UI/UX Optimization',
+        'API & Backend Integration',
+        'App Testing & Debugging',
+        'Ongoing Support & Maintenance'
       ]
     },
     {
       id: 7,
-      title: 'Ads Management',
-      description: 'Maximize your ROI with strategic ad campaigns across multiple platforms.',
+      title: 'UI/UX DESIGN',
+      description: 'Create intuitive, visually stunning, and user-friendly digital experiences.',
       icon: 'database',
       features: [
-        'Campaign Strategy',
-        'Ad Creation & Design',
-        'Budget Management',
-        'Performance Tracking',
-        'A/B Testing',
-        'ROI Optimization'
+        'User Research & Analysis',
+        'Wireframing & Prototyping',
+        'Responsive Design',
+        'Interactive UI Elements',
+        'Usability Testing',
+        'Ongoing Improvements & Support'
       ]
     },
     {
       id: 8,
-      title: 'Ads Management',
-      description: 'Maximize your ROI with strategic ad campaigns across multiple platforms.',
+      title: 'WEB APP DEVELOPMENT',
+      description: 'Build high-performing, scalable, and user-friendly web applications tailored to your needs.',
       icon: 'database',
       features: [
-        'Campaign Strategy',
-        'Ad Creation & Design',
-        'Budget Management',
-        'Performance Tracking',
-        'A/B Testing',
-        'ROI Optimization'
+        'Custom Web App Design',
+        'Front-End & Back-End Development',
+        'Progressive Web Apps (PWA)',
+        'API Integration',
+        'Security & Performance Optimization',
+        'Ongoing Support & Maintenance'
       ]
     },
     {
       id: 9,
-      title: 'Ads Management',
-      description: 'Maximize your ROI with strategic ad campaigns across multiple platforms.',
+      title: 'META ADS',
+      description: 'Reach your ideal audience and drive conversions with highly targeted Meta advertising.',
       icon: 'database',
       features: [
-        'Campaign Strategy',
-        'Ad Creation & Design',
-        'Budget Management',
-        'Performance Tracking',
-        'A/B Testing',
-        'ROI Optimization'
+        'Campaign Strategy & Setup',
+        'Audience Targeting & Retargeting',
+        'Ad Creatives & Copywriting',
+        'A/B Testing & Optimization',
+        'Budget & Bid Management',
+        'Analytics & Performance Reporting'
       ]
     }
   ];
