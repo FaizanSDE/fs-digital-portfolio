@@ -26,7 +26,7 @@ const Services = () => {
       description: 'Create a professional, easy-to-manage website with our expert WordPress solutions.',
       icon: 'globe',
       features: [
-        '✅ Custom WordPress Design',
+        'Custom WordPress Design',
         'Plugin Integration',
         'SEO-Friendly Setup',
         'Dynamic Content',
